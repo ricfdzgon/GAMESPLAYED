@@ -31,7 +31,7 @@ CREATE TABLE `juegos` (
   `Retirado` tinyint NOT NULL,
   `Horas` int NOT NULL,
   PRIMARY KEY (`idJuego`)
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,7 @@ CREATE TABLE `juegos` (
 
 LOCK TABLES `juegos` WRITE;
 /*!40000 ALTER TABLE `juegos` DISABLE KEYS */;
-INSERT INTO `juegos` VALUES (3,2023,'Scape from Tarkov','PC','Independiente',0,185),(4,2023,'The Legend of Zelda: Tears of the Kingdom','Nintendo Switch','Físico',0,141),(5,2023,'Baldurs Gate 3','PC','Steam',0,113),(6,2023,'World of Warcraft: Dragonflight','PC','BattleNet',0,86),(7,2023,'WRC Generations','PC','Steam',0,60),(8,2023,'Hogwarts Legacy','PC','Steam',0,60),(9,2023,'F1 Manager 2022','PC','Steam',0,60),(10,2023,'Forza Motorsport','PC','GamePass',0,58),(11,2023,'The Legend of Zelda: Breath of the Wild','Nintendo Switch','Emulado',0,55),(12,2023,'Pokémon Scarlet and Violet','Nintendo Switch','Físico',0,50),(13,2022,'Marvels Spider-Man: Game of the Year Edition','PC','Steam',0,45),(14,2022,'Going Medieval','PC','Steam',0,25),(15,2023,'Arcade Paradise','PC','GamePass',0,23),(16,2023,'Need for Speed Unbound','PC','GamePass',0,21),(17,2022,'Need For Speed Heat','PC','Steam',0,20),(18,2023,'Need for Speed: ProStreet Pepegas Mod','PC','Pirata',0,19),(19,2023,'Forza Horizon','Xbox 360','Emulado',0,17),(20,2022,'Hacker Simulator','PC','Steam',0,17),(21,2023,'Thief Simulator','PC','Steam',0,16),(22,2023,'Forza Horizon 5: Rally Adventure','PC','GamePass',0,12),(23,2023,'The Last of Us Part I','PC','Pirata',0,12),(24,2022,'Shadow of the Tomb Raider: Definitive Edition','PC','Epic Games',0,10),(25,2022,'Escape Academy','PC','GamePass',0,6),(26,2023,'Stranded Deep','PC','GamePass',1,2),(27,2023,'SnowRunner','PC','GamePass',1,2),(28,2023,'Starfield','PC','GamePass',1,5),(29,2023,'Gold Rush: The Game','PC','Steam',1,5),(30,2023,'Potion Craft: Alchemist Simulator','PC','GamePass',1,6),(31,2023,'Midnight Club: Los Angeles','Xbox 360','Emulado',1,13),(32,2023,'Divinity: Original Sin II','PC','GOG',1,19),(33,2023,'Car Mechanic Simulator 2021','PC','GamePass',1,26),(34,2023,'Cities Skylines II','PC','GamePass',0,51);
+INSERT INTO `juegos` VALUES (3,2023,'Scape from Tarkov','PC','Independiente',0,185),(4,2023,'The Legend of Zelda: Tears of the Kingdom','Nintendo Switch','Físico',0,141),(5,2023,'Baldurs Gate 3','PC','Steam',0,113),(6,2023,'World of Warcraft: Dragonflight','PC','BattleNet',0,86),(7,2023,'WRC Generations','PC','Steam',0,60),(8,2023,'Hogwarts Legacy','PC','Steam',0,60),(9,2023,'F1 Manager 2022','PC','Steam',0,60),(10,2023,'Forza Motorsport','PC','GamePass',0,58),(11,2023,'The Legend of Zelda: Breath of the Wild','Nintendo Switch','Emulado',0,55),(12,2023,'Pokémon Scarlet and Violet','Nintendo Switch','Físico',0,50),(13,2022,'Marvels Spider-Man: Game of the Year Edition','PC','Steam',0,45),(14,2022,'Going Medieval','PC','Steam',0,25),(15,2023,'Arcade Paradise','PC','GamePass',0,23),(16,2023,'Need for Speed Unbound','PC','GamePass',0,21),(17,2022,'Need For Speed Heat','PC','Steam',0,20),(18,2023,'Need for Speed: ProStreet Pepegas Mod','PC','Pirata',0,19),(19,2023,'Forza Horizon','Xbox 360','Emulado',0,17),(20,2022,'Hacker Simulator','PC','Steam',0,17),(21,2023,'Thief Simulator','PC','Steam',0,16),(22,2023,'Forza Horizon 5: Rally Adventure','PC','GamePass',0,12),(23,2023,'The Last of Us Part I','PC','Pirata',0,12),(24,2022,'Shadow of the Tomb Raider: Definitive Edition','PC','Epic Games',0,10),(25,2022,'Escape Academy','PC','GamePass',0,6),(26,2023,'Stranded Deep','PC','GamePass',1,2),(27,2023,'SnowRunner','PC','GamePass',1,2),(28,2023,'Starfield','PC','GamePass',1,5),(29,2023,'Gold Rush: The Game','PC','Steam',1,5),(30,2023,'Potion Craft: Alchemist Simulator','PC','GamePass',1,6),(31,2023,'Midnight Club: Los Angeles','Xbox 360','Emulado',1,13),(32,2023,'Divinity: Original Sin II','PC','GOG',1,19),(33,2023,'Car Mechanic Simulator 2021','PC','GamePass',1,26),(34,2023,'Cities Skylines II','PC','GamePass',0,51),(35,2024,'Watch Dogs: Legion','PC','Steam',0,30);
 /*!40000 ALTER TABLE `juegos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-01-03  0:07:47
+-- Dump completed on 2024-01-03 14:15:04
